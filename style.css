@@ -1,0 +1,64 @@
+/* General Body Style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the form */
+.container {
+  width: 50%;
+  margin: 100px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the form elements */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #083bc9;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #0c13a3;
+}
+
+/* Success Page Style */
+.success-container {
+  width: 60%;
+  margin: 100px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.success-container h2 {
+  color: rgb(230, 11, 11);
+}
+
+.success-container p {
+  font-size: 18px;
+}
